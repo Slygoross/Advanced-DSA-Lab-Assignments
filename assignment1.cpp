@@ -149,7 +149,8 @@ int minDepth(Node* root) {
 
 
 int main(){
-
+	cout<<"Pranav Modgil"<<endl;
+	cout<<"102115009, 3NC1"
 	Node * root = NULL;
 	int arr[] = {8,3,10,1,6,14,4,7,13};
 
