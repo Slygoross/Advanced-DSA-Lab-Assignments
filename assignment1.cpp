@@ -150,23 +150,44 @@ int minDepth(Node* root) {
 
 int main(){
 	cout<<"Pranav Modgil"<<endl;
-	cout<<"102115009, 3NC1"
+	cout<<"102115009, 3NC1"<<endl;
 	Node * root = NULL;
 	int arr[] = {8,3,10,1,6,14,4,7,13};
 
 	for(int x : arr){
 		root = insert(root,x);
 	}
+
+
+	cout<<"Inorder Traversal :";
 	printInOrder(root);
     cout<<endl;
-    printPreOrder(root);
+    cout<<"Inorder Traversal :";
+	printPreOrder(root);
     cout<<endl;
-    printPostOrder(root);
+    cout<<"Inorder Traversal :";
+	printPostOrder(root);
+	cout<<endl;
+
+	cout<<"After Removing 10"<<endl;
+	remove(root,10);
+	cout<<"Inorder Traversal :";
+	printInOrder(root);
+    cout<<endl;
+    cout<<"Inorder Traversal :";
+	printPreOrder(root);
+    cout<<endl;
+    cout<<"Inorder Traversal :";
+	printPostOrder(root);
+	cout<<endl;
+
+	int maxd = maxDepth(root);
+	int mind = minDepth(root);
+	cout<<endl;
+
+	cout<<"Max Depth: "<<maxd<<endl;
+	cout<<"Min Depth: "<<mind<<endl;
 
 	int key;
-	//cin>>key;
-	//root = remove(root,key);
-	//cout<<search(root,key) <<endl;
-	//printInOrder(root);
 	return 0;
 }
