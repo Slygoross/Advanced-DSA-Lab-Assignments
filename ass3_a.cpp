@@ -245,3 +245,18 @@ int main() {
 
     return 0;
 }
+1. Define the structure for the student record and AVL tree node.
+2. Implement functions to get the height and balance factor of a node, update the height of a node, perform right and left rotations.
+3. Implement the function to insert a new student record into the AVL tree.
+4. Implement the function to perform in-order traversal of the AVL tree.
+5. Implement the function to delete a student record from the AVL tree.
+6. Implement the function to free memory allocated for AVL tree nodes.
+7. In the main function:
+   a. Create an AVL tree root node.
+   b. Read student information from a text file and build the initial AVL tree.
+   c. Perform operations on the AVL tree, such as inserting a new student record.
+   d. Display the in-order traversal of the AVL tree.
+   e. Perform the delete operation on a specific student record.
+   f. Display the in-order traversal of the AVL tree after deletion.
+   g. Free memory allocated for AVL tree nodes.
+
